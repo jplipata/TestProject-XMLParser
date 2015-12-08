@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
     private XmlPullParserFactory xmlFactoryObject;
     private XmlPullParser myparser;
-    TextView textView; // TextView to display data
+    TextView textView; 
 
     // Dummy data
     StringReader stream = new StringReader("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" +
